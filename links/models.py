@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils import slugify
+from django.template.defaultfilters import slugify
 
 # Create your models here.
 # save a shortened link - name -, url, slug, # of clicks
