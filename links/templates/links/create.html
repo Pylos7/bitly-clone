@@ -1,6 +1,7 @@
 {% extends "links/_base.html" %}
 {% block content %}
-<form action="">
+<form action="" method="POST">
+	{% csrf_token %}
 	<input type="text">
 	<input type="submit" value="Create">
 </form>

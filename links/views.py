@@ -19,4 +19,5 @@ def root_link(request, link_slug):
 	return redirect(link.url)
 
 def add_link(request):
+	print(request.POST)
 	return render(request, 'links/create.html')
